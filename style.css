@@ -14,6 +14,7 @@ b{
 }
 .flexible-container{
     display: flex;
+    padding-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,97 @@ b{
     text-decoration: none;
     font-weight: 700;
     color: blueviolet;
+}
+.mid-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0;    
+}
+#mid-font{
+    font-size: 40px;
+    color: coral;
+}
+.p-mid-tag{
+    margin: 0;
+}
+.link-button-two{
+    background-image: linear-gradient(purple,cyan);
+    padding:10px 40px ;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(59, 48, 48);
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(153, 34, 34);
+}
+.p-tag{
+    text-align: center;
+    margin: 0;
+}
+#b{
+    color:black;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 40px rgb(165, 161, 161) ,2px 5px 10px rgb(153, 150, 150);
+    border-radius: 20px;
+}
+.box-padding{
+    padding-bottom: 100px;
+}
+.card img{
+    width: 250px;
+    border-radius: 20px;
+    margin: 15px 25px;
+}
+.text{
+    padding-left: 15px;
+    padding-top: 0;
+}
+.box-head-text{
+    color: cornflowerblue;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#F-color{
+    font-size: 30px;
+    color: chocolate;
+}
+#N-color{
+    font-size: 30px;
+    color: rgb(36, 30, 30);
+}
+
+.footer-text{
+   
+    margin-bottom: 5px;
+   
+   justify-content: center;
+   text-align: center;
+}
+footer{
+    
+    background-color:rgb(112, 34, 34);
+        height: auto;
+    padding-top: 40px;
+    font-family: "Open Sans"; 
+}
+
+#f-p{
+    text-align:center;
+    font-weight: 700; 
 }
